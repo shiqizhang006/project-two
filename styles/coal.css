@@ -1,0 +1,83 @@
+.miner-img {
+    width: 80px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.coal-title {
+    color: #fbb03b;
+    font-size: 33px;
+    padding-right: 140px;
+    margin-top: 10px;
+}
+
+.contents p {
+    color: white;
+}
+
+.contents div {
+    margin: 20px;
+}
+
+.power-station-img-pos {
+    position: relative;
+    width: 230px;
+    height: auto;
+    top: -150px;
+    left: 120px;
+}
+
+.qa-title {
+    position: relative;
+    top: -170px;
+    left: 10px;
+}
+
+.question-answer {
+    color: white;
+}
+
+.question-answer div {
+    margin: 10px;
+}
+
+.accordion {
+    position: relative;
+    top: -170px;
+}
+
+.contentBox {
+    padding-bottom: 10px;
+}
+
+.question {
+    padding-right: 25px;
+}
+
+.accordion .contentBox .question {
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion .contentBox .question::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-60%);
+    font-size: 2.5em;
+    color: #fbb03b;
+}
+
+.accordion .contentBox .answer {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+.accordion .contentBox.active .answer {
+    height: 500px;
+    min-width: 300px;
+}
