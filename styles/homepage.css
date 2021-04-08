@@ -1,0 +1,147 @@
+.header {
+
+}
+
+#title-1 {
+    font-size: 42px;
+    color: #FBB03B;
+    margin: 0;
+}
+
+#title-2 {
+    font-size: 38px;
+    color: white;
+    margin: 0;
+}
+
+.relative-38-top {
+    position: relative;
+    top: -38px;
+}
+
+.relative-15 {
+    position: relative;
+    left: 15px;
+}
+
+.relative-180 {
+    position: relative;
+    left: 180px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: white;
+}
+
+.solar-power-img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    background-color: #3b4f60;
+    border-radius: 20px;
+    line-height: 1.8;
+    color: white;
+    z-index: -1;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.center {
+    text-align: center;
+}
+
+.content-title {
+    margin: 0;
+    font-size: 38px;
+    color: white;
+    padding-left: 20px;
+}
+
+.power-station-img {
+    width: 230px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    shape-outside: url("../images/power-station.svg");
+}
+
+.windmill-img {
+    width: 230px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    shape-outside: url("../images/windmill.svg");
+}
+
+.electrician-img {
+    width: 230px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    shape-outside: url("../images/electrician.svg");
+    shape-margin: 2%;
+}
+
+.arrow-right {
+    position: relative;
+    top: 7px;
+    right: 20px;
+}
+
+@media (max-width: 767px) {
+    .intro {
+        max-width: 300;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+        max-width: 350px;
+    }
+
+    .solar-power-img {
+        width: 640px;
+    }
+
+    #contents {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #arrow-down {
+        display: none;
+    }
+
+    .hv-center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wid-50 {
+        width: 50%;
+    }
+}

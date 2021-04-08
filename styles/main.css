@@ -1,0 +1,7 @@
+@import url("./homepage.css");
+@import url("./navbar.css");
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}

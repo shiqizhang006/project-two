@@ -7,18 +7,101 @@
     <link rel="stylesheet" href="./styles/main.css">
     <script src="./scripts/navbar.js" defer></script>
     <title>Powering a Nation</title>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-    Powering a Nation
-    <nav>
-        <ul>
+    <nav class="nav-primary">
+        <a href="./" class="logo-wrapper">
+            <img class="logo" src="./images/logo_transparent.png" alt="Powering a Nation Logo">
+        </a>
+        <ul class="nav-link">
             <li><a href="./">Home</a></li>
             <li><a href="./coal/">Coal</a></li>
             <li><a href="./wind/">Wind</a></li>
             <li><a href="./electric/">Electric</a></li>
             <li><a href="./credits/">Credits</a></li>
         </ul>
+        <button class="toggle">
+            <img src="./images/menu-icon.png" alt="menu" />
+        </button>
     </nav>
-    
+    <header class="header">
+        <div>
+            <div>
+                <img src="./images/solar.png" alt="solar power" class="solar-power-img" />
+            </div>
+            <div>
+                <div class="relative-38-top">
+                    <div class="relative-15"><h1 id="title-1">POWRING</h1></div>
+                    <div class="relative-180"><h1 id="title-2">A NATION</h1></div>
+                </div>
+            </div>  
+        </div>
+        <div class="wid-50 center">
+            <div class="inline-block">
+                <div><p class="subtitle">The quest for energy in a changing USA</p></div>
+                <div>
+                    <p class="intro">
+                        Energy makes America go. But the way 
+                        we get it is more complex and 
+                        vulnerable than most of us realize.
+                        The truth about energy is that change 
+                        won’t come easily. Here, you can 
+                        explore America’s energy stories, meet 
+                        the people behind the debate and join 
+                        the conversation about our future.
+                    </p>
+                </div>
+                <div class="center"><img src="./images/arrow-down.png" alt="arrow-down" class="inline-block" id="arrow-down"></div>
+            </div>
+        </div>
+    </header>
+    <section id="contents">
+        <div>
+            <div class="flex">
+                <div><h2 class="content-title">COAL</h2></div>
+                <div><img src="./images/arrow-circle-right.png" alt="arrow-right" class="arrow-right"></div>
+            </div>
+            <div>
+                <img src="./images/power-station.svg" alt="power station" class="power-station-img" />
+                <p class="intro">
+                    The residents of Meigs County, Ohio, live beneath the towering smokestacks of four coal-fired power plants. A fifth plant has been proposed, the latest salvo 
+                    in a battle over the way 
+                    the U.S. gets electricity.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="flex">
+                <div><h2 class="content-title">WIND</h2></div>
+                <div><img src="./images/arrow-circle-right.png" alt="arrow-right" class="arrow-right"></div>
+            </div>
+            <div>
+                <img src="./images/windmill.svg" alt="windmill" class="windmill-img" />
+                <p class="intro">
+                    Once considered a burden, the wind is now reviving the Texas town of Roscoe by creating new jobs and bringing people back, giving a secondchance to this 
+                    once-dying community. 
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class="flex">
+                <div><h2 class="content-title">ELECTRIC</h2></div>
+                <div><img src="./images/arrow-circle-right.png" alt="arrow-right" class="arrow-right"></div>
+            </div>
+            <div>
+                <img src="./images/electrician.svg" alt="power station" class="electrician-img" />
+                <p class="intro">
+                    The residents of Meigs County, Ohio, live beneath the towering smokestacks of four coal-fired power plants. A fifth plant has been proposed, the latest salvo 
+                    in a battle over the way 
+                    the U.S. gets electricity.
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

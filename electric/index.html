@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../scripts/navbar.js" defer></script>
     <title>Electric</title>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    Electric
-    <nav>
-        <ul>
+    <nav class="nav-primary">
+        <a href="../" class="logo-wrapper">
+            <img class="logo" src="../images/logo_transparent.png" alt="Powering a Nation Logo">
+        </a>
+        <ul class="nav-link">
             <li><a href="../">Home</a></li>
             <li><a href="../coal/">Coal</a></li>
             <li><a href="../wind/">Wind</a></li>
             <li><a href="../electric/">Electric</a></li>
             <li><a href="../credits/">Credits</a></li>
         </ul>
+        <button class="toggle">
+            <img src="../images/menu-icon.png" alt="menu" />
+        </button>
     </nav>
 </body>
 </html>
