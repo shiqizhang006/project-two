@@ -1,0 +1,37 @@
+.credit-title {
+    color: #fbb03b;
+    font-size: 33px;
+    margin-top: 10px;
+    padding-left: 40%;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px;
+    padding-left: 20px;
+}
+
+.container-1 p {
+    color: white;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px;
+    padding-left: 20px;
+}
+
+.container-2 p {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .credits-content {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+}

@@ -1,0 +1,58 @@
+.electric-title {
+    color: #fbb03b;
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.light-bulb {
+    position: relative;
+    width: auto;
+    height: 60px;
+    top: 15px;
+}
+
+.electric-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+
+.author {
+    position: relative;
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+    left: 235px;
+}
+
+.body-text p {
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    background-color: #3b4f60;
+    border-radius: 20px;
+    line-height: 1.8;
+    color: white;
+    z-index: -1;
+}
+
+.body-text div {
+    margin: 20px;
+}
+
+.electric-img {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.description {
+    font-size: 7px;
+    font-style: italic;
+}

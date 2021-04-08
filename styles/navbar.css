@@ -55,8 +55,14 @@ body {
         transform: translateX(0);
     }
 
+    .nav-primary li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .nav-primary ul a {
-        color: white;
+        color: #FBB03B;
+        padding-left: 2%;
     }
 }
 
@@ -71,8 +77,15 @@ body {
     }
 
     .nav-primary ul li {
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
+    .nav-primary a {
+        outline: none;
+        text-decoration: none;
+        color: #FBB03B;
+        font-size: 24px;
+    }
 }
 
