@@ -3,6 +3,7 @@
 @import url("./coal.css");
 @import url("./electric.css");
 @import url("./credits.css");
+@import url("./wind.css");
 
 .flex {
     display: flex;
