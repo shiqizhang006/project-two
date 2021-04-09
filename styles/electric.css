@@ -9,6 +9,7 @@
     width: auto;
     height: 60px;
     top: 15px;
+    z-index: -1;
 }
 
 .electric-flex {
@@ -21,6 +22,7 @@
     color: white;
     font-size: 15px;
     margin: 0;
+    z-index: -1;
 }
 
 .author {
@@ -28,7 +30,8 @@
     color: white;
     font-size: 13px;
     margin-top: 15px;
-    left: 235px;
+    left: 120px;
+    z-index: -1;
 }
 
 .body-text p {
@@ -46,6 +49,10 @@
     margin: 20px;
 }
 
+.body-text {
+    margin-bottom: 30px;
+}
+
 .electric-img {
     position: relative;
     width: 100%;
@@ -56,3 +63,8 @@
     font-size: 7px;
     font-style: italic;
 }
+
+.arrow-up {
+    margin-bottom: 30px;
+}
+

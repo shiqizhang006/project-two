@@ -119,6 +119,11 @@
 @media (min-width: 768px) {
     .intro {
         max-width: 350px;
+        top: 50px;
+    }
+
+    .subtitle {
+        top: 50px;
     }
 
     .solar-power-img {
