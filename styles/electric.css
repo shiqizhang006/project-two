@@ -68,3 +68,8 @@
     margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+    .subtitle {
+        padding-bottom: 60px;
+    }
+}
