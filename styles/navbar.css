@@ -1,91 +1,90 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .nav-primary {
-    position: relative;
-    display: flex;
-    top: 0;
-    height: 64px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
+  position: relative;
+  display: flex;
+  top: 0;
+  height: 64px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
 }
 
 .nav-primary .logo {
-    margin: 0;
-    width: 200px;
+  margin: 0;
+  width: 200px;
 }
 
 .nav-primary .logo-wrapper {
-    margin: 0;
-    padding-top: 5px;
+  margin: 0;
+  padding-top: 5px;
 }
 
 .nav-primary .toggle {
-    margin: 0;
-    padding-right: 12px;
-    border-color: transparent;
-    background: transparent;
+  margin: 0;
+  padding-right: 12px;
+  border-color: transparent;
+  background: transparent;
 }
 
 .nav-primary ul {
-    margin: 0;
-    list-style: none;
-    padding: 0%;
+  margin: 0;
+  list-style: none;
+  padding: 0%;
 }
 
 .nav-primary a {
-    text-decoration: none;
-    margin: 15px;
+  text-decoration: none;
+  margin: 15px;
 }
 
 @media (max-width: 767px) {
-    .nav-primary ul {
-        transition: transform 300ms;
-        top: 64px;
-        width: 100%;
-        position: absolute;
-        background: black;
-        transform: translateX(-100vh);
-    }
+  .nav-primary ul {
+    transition: transform 300ms;
+    top: 64px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    transform: translateX(-100vh);
+  }
 
-    .nav-primary ul.active {
-        transform: translateX(0);
-    }
+  .nav-primary ul.active {
+    transform: translateX(0);
+  }
 
-    .nav-primary li {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+  .nav-primary li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    .nav-primary ul a {
-        color: #FBB03B;
-        padding-left: 2%;
-    }
+  .nav-primary ul a {
+    color: #fbb03b;
+    padding-left: 2%;
+  }
 }
 
 @media (min-width: 768px) {
-    .toggle {
-        display: none;
-    }
+  .toggle {
+    display: none;
+  }
 
-    .nav-primary ul {
-        display: flex;
-        margin: 10px;
-    }
+  .nav-primary ul {
+    display: flex;
+    margin: 10px;
+  }
 
-    .nav-primary ul li {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-    .nav-primary a {
-        outline: none;
-        text-decoration: none;
-        color: #FBB03B;
-        font-size: 24px;
-    }
+  .nav-primary ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-primary a {
+    outline: none;
+    text-decoration: none;
+    color: #fbb03b;
+    font-size: 24px;
+  }
 }
-

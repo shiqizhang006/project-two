@@ -1,123 +1,122 @@
 .miner-img {
-    width: 80px;
-    height: auto;
-    padding-right: 20px;
-
+  width: 80px;
+  height: auto;
+  padding-right: 20px;
 }
 
 .coal-title {
-    color: #fbb03b;
-    font-size: 33px;
-    margin-top: 10px;
+  color: #fbb03b;
+  font-size: 33px;
+  margin-top: 10px;
 }
 
 .coal-flex {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contents p {
-    color: white;
+  color: white;
 }
 
 .contents div {
-    margin: 20px;
+  margin: 20px;
 }
 
 .power-station-img-pos {
-    position: relative;
-    width: 230px;
-    height: auto;
-    top: -150px;
-    left: 120px;
+  position: relative;
+  width: 230px;
+  height: auto;
+  top: -150px;
+  left: 120px;
 }
 
 .qa-title {
-    position: relative;
-    top: -170px;
-    left: 10px;
+  position: relative;
+  top: -170px;
+  left: 10px;
 }
 
 .question-answer {
-    color: white;
+  color: white;
 }
 
 .question-answer div {
-    margin: 10px;
+  margin: 10px;
 }
 
 .accordion {
-    position: relative;
-    top: -170px;
+  position: relative;
+  top: -170px;
 }
 
 .contentBox {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .question {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 .accordion .contentBox .question {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 .accordion .contentBox .question::before {
-    content: "+";
-    position: absolute;
-    top: 50%;
-    right: 3px;
-    transform: translateY(-60%);
-    font-size: 2.5em;
-    color: #fbb03b;
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  transform: translateY(-60%);
+  font-size: 2.5em;
+  color: #fbb03b;
 }
 
 .accordion .contentBox .answer {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s;
-    overflow-y: auto;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
 }
 
 .accordion .contentBox.active .answer {
-    height: 500px;
-    min-width: 300px;
+  height: 500px;
+  min-width: 300px;
 }
 
 @media (min-width: 768px) {
-    .contents {
-        display: flex;
-        justify-content: space-evenly;
-    }
+  .contents {
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-    .contents div {
-        top: 0;
-        margin-top: 0;
-    }
+  .contents div {
+    top: 0;
+    margin-top: 0;
+  }
 
-    .power-station-img-pos {
-        position: relative;
-        width: 230px;
-        height: auto;
-        top: -170px;
-        left: 1000px;
-    }
+  .power-station-img-pos {
+    position: relative;
+    width: 230px;
+    height: auto;
+    top: -170px;
+    left: 1000px;
+  }
 
-    .accordion {
-        top: -300px;
-        display: flex;
-        justify-content: space-evenly;
-    }
+  .accordion {
+    top: -300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-    .accordion > div {
-        max-width: 450px;
-    }
+  .accordion > div {
+    max-width: 450px;
+  }
 
-    .qa-title {
-        top: -300px;
-        left: 100px;
-    }
-} 
+  .qa-title {
+    top: -300px;
+    left: 100px;
+  }
+}

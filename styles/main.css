@@ -6,6 +6,6 @@
 @import url("./wind.css");
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
