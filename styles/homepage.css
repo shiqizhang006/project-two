@@ -13,21 +13,6 @@
   margin: 0;
 }
 
-.relative-38-top {
-  position: relative;
-  top: -38px;
-}
-
-.relative-15 {
-  position: relative;
-  left: 15px;
-}
-
-.relative-180 {
-  position: relative;
-  left: 180px;
-}
-
 .subtitle {
   font-size: 18px;
   color: white;
@@ -68,9 +53,6 @@
   width: 200px;
   height: auto;
   float: right;
-  position: relative;
-  top: 6px;
-  left: 20px;
   shape-outside: url("../images/power-station.svg");
 }
 
@@ -78,9 +60,6 @@
   width: 200px;
   height: auto;
   float: right;
-  position: relative;
-  top: 0px;
-  left: 20px;
   shape-outside: url("../images/windmill.svg");
 }
 
@@ -88,9 +67,6 @@
   width: 230px;
   height: auto;
   float: right;
-  position: relative;
-  top: 10px;
-  left: 20px;
   shape-outside: url("../images/electrician.svg");
   shape-margin: 2%;
 }
@@ -116,6 +92,39 @@
 }
 
 @media (min-width: 768px) {
+  .relative-38-top {
+    position: relative;
+    top: -38px;
+  }
+
+  .relative-15 {
+    position: relative;
+    left: 15px;
+  }
+
+  .relative-180 {
+    position: relative;
+    left: 180px;
+  }
+
+  .power-station-img {
+    position: relative;
+    top: 6px;
+    left: 20px;
+  }
+
+  .windmill-img {
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+
+  .electrician-img {
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
   .intro {
     max-width: 350px;
     top: 50px;
